@@ -5,16 +5,25 @@ using namespace std;
 
 int main() {
 	
+    cout << "Say Hello" << endl;
 
-	string name;
+    string userInput;
 
-	cout << "what is your name?" << endl;
 
-	cin >> name;
+	cout << "Please enter your name?" << endl;
+    cin >> userInput;
 
-	//getline(cin, name);
+    for (int i=0; i<=6; i++)
+    {
+        cout << endl;
+    }
 
-	cout <<"Your name is"<< endl;
+    cout << "Hello " << userInput << " how are you today>?" << endl;
+    cin >> userInput;
+
+
+    cout << "Have a nice day!" << endl;
+
 
 	return 0;
 }
